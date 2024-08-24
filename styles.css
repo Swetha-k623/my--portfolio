@@ -1,4 +1,10 @@
-/* Reset and Basic Styles */
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,9 +12,31 @@ body {
     color: #333;
 }
 
-/* Social Icons Styles */
+.section {
+    padding: 30px 0; /* Adjust padding for sections */
+}
+
+.introduction {
+    flex: 1;
+    margin: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 30px; /* Increased margin for more space around photo */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .social-icons a {
-    margin: 0 15px;
+    margin: 0 15px; /* Increased spacing between icons */
     font-size: 1.5em;
     color: #333;
     transition: color 0.3s;
@@ -18,20 +46,17 @@ body {
     color: #007BFF;
 }
 
-/* Contact Info Styles */
 .contact-icon {
     width: 24px;
     height: 24px;
-    margin-right: 10px;
+    margin-right: 15px; /* Increased space between icon and text */
 }
 
-/* Map Container */
-.map-container iframe {
-    width: 100%;
-    border: none;
+.map-container {
+    margin-top: 20px;
 }
 
-/* Footer Styles */
 footer p {
     margin: 0;
 }
+

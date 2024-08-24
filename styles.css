@@ -1,0 +1,37 @@
+/* Reset and Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Social Icons Styles */
+.social-icons a {
+    margin: 0 15px;
+    font-size: 1.5em;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+}
+
+/* Contact Info Styles */
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Map Container */
+.map-container iframe {
+    width: 100%;
+    border: none;
+}
+
+/* Footer Styles */
+footer p {
+    margin: 0;
+}

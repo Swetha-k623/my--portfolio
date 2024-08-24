@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swetha Portfolio</title>
+    <title>Swetha Kumar Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -15,8 +15,11 @@
     <header class="bg-dark text-white py-3">
         <div class="container d-flex justify-content-between align-items-center">
             <h1 class="h3">Swetha Kumar</h1>
-            <nav>
-                <ul class="nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#academic-qualifications">Academic Qualifications</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
@@ -108,8 +111,16 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="section bg-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About</h2>
+            <p class="text-center">I am a passionate and aspiring web developer with skills in front-end and back-end technologies. I love coding and constantly improving my skills.</p>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="section bg-white py-5">
+    <section id="contact" class="section bg-light py-5">
         <div class="container">
             <h2 class="text-center mb-4">Contact Information</h2>
             <div class="row">
@@ -135,7 +146,7 @@
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="section bg-light py-5">
+    <section id="resume" class="section bg-white py-5">
         <div class="container text-center">
             <h2>Resume</h2>
             <p><a href="resume.pdf" class="btn btn-primary btn-lg" download>Download My Resume</a></p>
@@ -155,6 +166,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-
 </body>
 </html>

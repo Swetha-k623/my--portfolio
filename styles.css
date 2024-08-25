@@ -135,21 +135,21 @@ footer {
 }
 
 /* Resume Button Styles */
-.resume-button {
-    display: inline-block;
-    padding: 15px 25px;
-    background-color: grey;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
+#resume .resume-button {
+    background-color: grey; /* Grey background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Makes the link look like a button */
+    border: 1px solid grey; /* Grey border */
 }
 
-.resume-button:hover {
-    background-color: grey;
+#resume .resume-button:hover {
+    background-color: darkgrey; /* Darker grey on hover */
+    border-color: darkgrey; /* Darker grey border on hover */
 }
+
 
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {

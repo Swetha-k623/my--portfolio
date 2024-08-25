@@ -134,7 +134,7 @@ footer {
     padding: 20px;
 }
 
-/* Resume Button Styles */
+/* Resume Button Styling */
 #resume .resume-button {
     background-color: grey; /* Grey background */
     color: white; /* White text color */
@@ -143,12 +143,20 @@ footer {
     border-radius: 5px; /* Rounded corners */
     display: inline-block; /* Makes the link look like a button */
     border: 1px solid grey; /* Grey border */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 #resume .resume-button:hover {
     background-color: darkgrey; /* Darker grey on hover */
     border-color: darkgrey; /* Darker grey border on hover */
 }
+
+/* Optional: Add hover effect for a smoother transition */
+#resume .resume-button:focus {
+    outline: none; /* Remove focus outline */
+}
+
 
 
 /* Media Queries for Mobile Responsiveness */

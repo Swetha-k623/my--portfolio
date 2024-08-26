@@ -126,6 +126,7 @@ footer {
 }
 
 /* Project Section Styles */
+
 .project-section {
     margin: 30px 0;
 }
@@ -144,14 +145,16 @@ footer {
     margin-bottom: 5px;
 }
 
-.project-link {
-    color: #007BFF;
-    text-decoration: none;
+.project-icon {
+    font-size: 1.5em; /* Size of the GitHub icon */
+    margin-left: 10px;
+    color: #333;
 }
 
-.project-link:hover {
-    text-decoration: underline;
+.project-icon:hover {
+    color: #007BFF; /* Change color on hover */
 }
+
 
 /* Resume Styles */
 .resume-container {
